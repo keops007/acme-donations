@@ -11,7 +11,9 @@ cp .env.example .env
 php artisan key:generate
 touch database/database.sqlite
 php artisan migrate
+php artisan db:seed --class=AdminSeeder
 php artisan db:seed --class=SettingsSeeder
+php artisan db:seed --class=TestDataSeeder
 npm run build
 php artisan serve
 ```
