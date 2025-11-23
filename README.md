@@ -25,9 +25,11 @@ php artisan serve
 
 ## Main URLs
 
-- Homepage: http://acme-donations.test/
-- Admin Dashboard: http://acme-donations.test/admin/dashboard
-- Admin Settings: http://acme-donations.test/admin/settings
+**Production**: https://acme-donations.meonthe.run/
+
+- Homepage: https://acme-donations.meonthe.run/
+- Admin Dashboard: https://acme-donations.meonthe.run/admin/dashboard
+- Admin Settings: https://acme-donations.meonthe.run/admin/settings
 
 ## Stack
 
