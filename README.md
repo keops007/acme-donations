@@ -49,6 +49,20 @@ php artisan serve
 - Admin settings for application parameters
 - Dark mode support
 
+## Usage Notes
+
+### Editing Campaigns
+
+The "Edit" button appears on a campaign page only if you are:
+- An **admin** user, OR
+- The **creator** of the campaign
+
+Navigate to the campaign details page to see the Edit button in the header.
+
+### Recent Donations
+
+The "Recent Donations" section on a campaign page only appears when donations have been made to that campaign. Make a test donation to see this section.
+
 ## Architecture Choices
 
 ### Backend
